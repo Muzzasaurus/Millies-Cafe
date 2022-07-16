@@ -1,0 +1,83 @@
+.grid-info1 { grid-area: info1; }
+.grid-info2 { grid-area: info2; }
+.grid-button1 { grid-area: button1; }
+.bg-image {
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+	position: relative;
+	transition-duration: 0.2s;
+}
+.grid-button1:hover .bg-image {
+	filter: blur(8px);
+}
+.play-text {
+	position: relative;
+	top: -50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-family: 'Days One', sans-serif;
+	font-size: 50px;
+	color: white;
+	background-color: black;
+	opacity: 0%;
+	transition-duration: 0.2s;
+	font-style: italic;
+	cursor: pointer;
+}
+.grid-button1:hover > .play-text {
+	opacity: 75%;
+}
+.play-text:hover + .bg-image {
+	filter: blue(8px);
+}
+.grid-button2 { grid-area: button2; }
+.grid-button2:hover > .play-text {
+	opacity: 75%;
+}
+.grid-button2:hover .bg-image {
+	filter: blur(8px);
+}
+.grid-container {
+	display: grid;
+	grid-template-areas:
+		'info1 info1 button1'
+		'info2 info2 button2';
+	gap: 10px;
+	padding: 10px;
+	background-color: #afafaf;
+	width: 75%;
+	left: 12.5%;
+	position: absolute;
+	grid-auto-columns: minmax(0, 1fr);
+	grid-auto-flow: column;
+}
+
+.grid-container > div {
+	background-color: #cfcfcf;
+	text-align: center;
+	height: 200px;
+}
+a {
+	text-decoration: none;
+	color: inherit;
+}
+h1 {
+	text-align: center;
+	font-size: 50px;
+	font-family: 'Alegreya Sans', sans-serif;
+}
+h2 {
+	margin: 8px;
+	font-size: 30px;
+	font-family: 'Alegreya Sans', sans-serif;
+}
+p {
+	font-size: 20px;
+	font-family: 'Alegreya Sans', sans-serif;
+}
+hr {
+	height: 2px;
+	background-color: grey;
+	border: none;
+}
