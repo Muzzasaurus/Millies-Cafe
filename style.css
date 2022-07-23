@@ -6,14 +6,14 @@
 	width: 100%;
 	height: 100%;
 	position: relative;
-	transition-duration: 0.2s;
+	transition-duration: 0.5s;
 }
 .grid-button1:hover .bg-image {
 	filter: blur(8px);
 }
 .play-text {
 	position: relative;
-	top: -50%;
+	top: -45%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	font-family: 'Days One', sans-serif;
@@ -21,12 +21,13 @@
 	color: white;
 	background-color: black;
 	opacity: 0%;
-	transition-duration: 0.2s;
+	transition-duration: 1s;
 	font-style: italic;
 	cursor: pointer;
 }
 .grid-button1:hover > .play-text {
 	opacity: 75%;
+	top: -50%;
 }
 .play-text:hover + .bg-image {
 	filter: blue(8px);
@@ -34,6 +35,7 @@
 .grid-button2 { grid-area: button2; }
 .grid-button2:hover > .play-text {
 	opacity: 75%;
+	top: -50%;
 }
 .grid-button2:hover .bg-image {
 	filter: blur(8px);
@@ -45,7 +47,7 @@
 		'info2 info2 button2';
 	gap: 10px;
 	padding: 10px;
-	background-color: #afafaf;
+	background-color: #7a7a7a;
 	width: 75%;
 	left: 12.5%;
 	position: absolute;
@@ -56,16 +58,11 @@
 .grid-container > div {
 	background-color: #cfcfcf;
 	text-align: center;
-	height: 200px;
+	height: 250px;
 }
 a {
 	text-decoration: none;
 	color: inherit;
-}
-h1 {
-	text-align: center;
-	font-size: 50px;
-	font-family: 'Alegreya Sans', sans-serif;
 }
 h2 {
 	margin: 8px;
@@ -80,4 +77,26 @@ hr {
 	height: 2px;
 	background-color: grey;
 	border: none;
+}
+body {
+	background-color: #505050;
+}
+
+h1 {
+	text-align: center;
+	font-size: 50px;
+	font-family: 'Alegreya Sans', sans-serif;
+	animation-name: headingText;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-timing-function: linear; 
+}
+@keyframes headingText {
+	0% {
+		color: #ff75cd;
+	}
+	100% {
+		color: #75f8ff;
+	}
 }
