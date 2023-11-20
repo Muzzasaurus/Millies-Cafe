@@ -1,9 +1,13 @@
 .grid-info1 { grid-area: info1; }
 .grid-info2 { grid-area: info2; }
 .grid-info3 { grid-area: info3; }
+.grid-info4 { grid-area: info4; }
+.grid-info5 { grid-area: info5; }
 .grid-button1 { grid-area: button1; }
 .grid-button2 { grid-area: button2; }
 .grid-button3 { grid-area: button3; }
+.grid-button4 { grid-area: button4; }
+.grid-button5 { grid-area: button5; }
 .bg-image {
 	object-fit: cover;
 	width: 100%;
@@ -49,9 +53,25 @@
 .grid-button3:hover .bg-image {
 	filter: blur(8px);
 }
+.grid-button4:hover > .play-text {
+	opacity: 75%;
+	top: -50%;
+}
+.grid-button4:hover .bg-image {
+	filter: blur(8px);
+}
+.grid-button5:hover > .play-text {
+	opacity: 75%;
+	top: -50%;
+}
+.grid-button5:hover .bg-image {
+	filter: blur(8px);
+}
 .grid-container {
 	display: grid;
 	grid-template-areas:
+		'info5 info5 button5'
+		'info4 info4 button4'
 		'info3 info3 button3'
 		'info2 info2 button2'
 		'info1 info1 button1';
