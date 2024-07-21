@@ -65,7 +65,35 @@ my group of friends and I decided to create another game for our other \
 friend, this one was a lot bigger than the previous one and was a lot \
 more complicated.",
 
-"https://delicious-fruit.com/ratings/game_details.php?id=25770"]
+"https://delicious-fruit.com/ratings/game_details.php?id=25770"],
+
+
+// Luc the Ster
+["Assets/Images/lucsterPreview.png",
+
+"I Wanna Luc the Ster",
+
+"Once again this project was created for a friend's birthday, this time Lucster. \
+This game was on a very tight time limit of about two weeks so it doesn't have \
+as much content as the other games we've created, but we were still able to \
+create a finished product for him which I'm very happy with.",
+
+"https://delicious-fruit.com/ratings/game_details.php?id=26378"],
+
+
+// I Wanna Legato
+["Assets/Images/LegatoPreview.png",
+
+"I Wanna Legato",
+
+"This game was a gift for my friend Melody, I created it with my friend group \
+for her. A lot of love and passion went into this game from everyone involved \
+and I'm so proud of everyone for making this. However the game hasn't been \
+publicly released as some parts of the game weren't quite ready for it, \
+so instead of linking to the game itself, this link will bring you to a teaser \
+trailer that shows off some of the content.",
+
+"https://www.youtube.com/watch?v=Cg8sf99dSfg"]
 ]
 
 //Function definitions
