@@ -93,7 +93,21 @@ publicly released as some parts of the game weren't quite ready for it, \
 so instead of linking to the game itself, this link will bring you to a teaser \
 trailer that shows off some of the content.",
 
-"https://www.youtube.com/watch?v=Cg8sf99dSfg"]
+"https://www.youtube.com/watch?v=Cg8sf99dSfg"],
+
+// MeowTool
+["Assets/Images/meowToolPreview.png",
+
+"MeowTool",
+
+"MeowTool so far is my most technical project, it's an I Wanna be the Guy level \
+editor based off of Jtool made by Patrickgh3. This project required me to figure \
+out a lot of complicated features on my own such as saving/loading screens and \
+switching between skins in game. This project is still ongoing and I'm quite proud \
+of how it's turning out, I plan to add a lot more features until I consider it a \
+worthy successor of Jtool.",
+
+"https://delicious-fruit.com/ratings/game_details.php?id=28027"]
 ]
 
 //Function definitions
