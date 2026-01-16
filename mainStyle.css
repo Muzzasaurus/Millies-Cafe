@@ -90,6 +90,6 @@ a {
 #buttonText {
 	color: var(--lightest);
 	font-size: 72px;
-	height: 59px;
+	height: 4.5rem;
 	display: flex;
 }

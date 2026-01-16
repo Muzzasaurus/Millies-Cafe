@@ -107,7 +107,20 @@ switching between skins in game. This project is still ongoing and I'm quite pro
 of how it's turning out, I plan to add a lot more features until I consider it a \
 worthy successor of Jtool.",
 
-"https://delicious-fruit.com/ratings/game_details.php?id=28027"]
+"https://delicious-fruit.com/ratings/game_details.php?id=28027"],
+
+// Timeless Clicker
+["Assets/Images/TCPreview.webp",
+
+"Timeless Clicker",
+
+"The idea for this game came from my friend Max, while talking about \
+my previously created clicker games he talked about his little idea. \
+After a few months of sitting on it I decided to make it real just \
+for fun, do not expect good gameplay from this, but enjoy the fact \
+that it exists.",
+
+"https://muzzasaurus.github.io/Timeless-Clicker/"]
 ]
 
 //Function definitions
